@@ -60,23 +60,28 @@ const TONES = [
 ]
 
 type Length = 'short' | 'medium' | 'long';
-const LENGTHS = [
-  {
-    value: 'short' as Length,
-    label: 'Short',
-    desc: '50–100 words',
-  },
-  {
-    value: 'medium' as Length,
-    label: 'Medium',
-    desc: '150–250 words',
-  },
-  {
-    value: 'long' as Length,
-    label: 'Long',
-    desc: '400–600 words',
-  },
-]
+
+const LENGTHS: {
+  value: Length
+  label: string
+  desc: string
+}[] = [
+    {
+      value: 'short',
+      label: 'Short',
+      desc: '50–100 words',
+    },
+    {
+      value: 'medium',
+      label: 'Medium',
+      desc: '150–250 words',
+    },
+    {
+      value: 'long',
+      label: 'Long',
+      desc: '400–600 words',
+    },
+  ]
 
 type Platform =
   | 'instagram'
