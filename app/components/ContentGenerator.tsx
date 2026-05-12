@@ -59,6 +59,7 @@ const TONES = [
   'Witty & humorous',
 ]
 
+type Length = 'short' | 'medium' | 'long';
 const LENGTHS = [
   {
     value: 'short' as Length,
@@ -76,6 +77,13 @@ const LENGTHS = [
     desc: '400–600 words',
   },
 ]
+
+type Platform =
+  | 'instagram'
+  | 'linkedin'
+  | 'twitter'
+  | 'facebook'
+  | 'blog';
 
 export default function ContentGenerator() {
   const [platform, setPlatform] =
