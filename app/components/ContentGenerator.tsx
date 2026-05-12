@@ -416,28 +416,6 @@ export default function ContentGenerator() {
                 </p>
               </div>
 
-              {/* <div className="flex items-center gap-3">
-
-                <div className="bg-[#0f1217] border border-[#252b36] rounded-2xl px-4 py-2">
-                  <p className="text-[10px] uppercase text-gray-500">
-                    Platform
-                  </p>
-
-                  <p className="text-sm text-white capitalize mt-0.5">
-                    {platform}
-                  </p>
-                </div>
-
-                <div className="bg-[#0f1217] border border-[#252b36] rounded-2xl px-4 py-2">
-                  <p className="text-[10px] uppercase text-gray-500">
-                    Words
-                  </p>
-
-                  <p className="text-sm text-white mt-0.5">
-                    {wordCount}
-                  </p>
-                </div>
-              </div> */}
             </div>
 
             {/* CONTENT */}
