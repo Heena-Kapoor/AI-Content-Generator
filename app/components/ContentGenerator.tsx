@@ -297,7 +297,6 @@ export default function ContentGenerator() {
                   <div className="w-2 h-2 rounded-full bg-[#b8ff65]" />
                 </div>
 
-                {/* Dropdown Icon */}
                 <ChevronDown
                   size={18}
                   className="absolute top-4 right-4 text-gray-500 pointer-events-none"
@@ -415,7 +414,6 @@ export default function ContentGenerator() {
           {/* RIGHT CONTENT */}
           <div className="bg-[#13171d] border border-[#222833] rounded-3xl overflow-hidden">
 
-            {/* TOP BAR */}
             <div className="border-b border-[#222833] px-6 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 
               <div>
