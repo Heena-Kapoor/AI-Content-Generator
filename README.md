@@ -70,8 +70,6 @@ npm run dev
 4. Add: `GROQ_API_KEY` = your key
 5. Click Deploy — done!
 
-> Vercel injects the env variable securely on the server. Your key stays safe.
-
 ---
 
 ## Project Structure
