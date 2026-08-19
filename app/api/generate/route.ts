@@ -69,7 +69,7 @@ Write ONLY the content. No preamble, no explanation, no quotes around the conten
 
     // Call Groq API — llama-3.3-70b-versatile is free and very capable
     const completion = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
+      model: 'openai/gpt-oss-120b',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 1024,
     })
