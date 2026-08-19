@@ -1,14 +1,14 @@
 # AI Content Generator
 > Built with Next.js 14 + Groq API by Heena Kapoor
 
-A full-stack AI app that generates LinkedIn posts, Twitter threads, blog intros, Instagram captions, and newsletter sections using Groq's blazing-fast Llama 3 model.
+A full-stack AI app that generates LinkedIn posts, Twitter threads, blog intros, Instagram captions, and newsletter sections using Groq's blazing-fast AI model.
 
 ---
 
 ## Tech Stack
 - **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS
 - **Backend:** Next.js API Routes (App Router)
-- **AI:** Groq API · `llama-3.3-70b-versatile` (free, no credit card needed)
+- **AI:** Groq API · `OpenAI GPT-OSS 120B` (free, no credit card needed)
 
 ---
 
@@ -19,7 +19,7 @@ Browser (React UI)
       ↓  calls
 /api/generate  ← Your Next.js backend (server-side)
       ↓  calls with API key
-Groq API (Llama 3 model)
+Groq API (OpenAI model)
       ↓  returns content
 /api/generate  → sends result back
       ↓
